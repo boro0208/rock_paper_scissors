@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.buttons {
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons button {
+    flex: 0 1 300px;
+    height: 200px;
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+    background-color: aquamarine;
+    border: solid 3px black;
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.buttons button:hover {
+    transform: scale(1.1);
+    border: solid 5px orange;
+    color: orange;
+    font-weight: 700;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+}
+
+.res {
+    text-align: center;
+    font-size: larger;
+    font-weight: 800;
+}
+
+.msg {
+    text-align: center;
+    font-size: larger;
+    font-weight: 800;
+}
+
+.result p {
+    display: flex;
+    flex: 0 1 100px;
+    justify-content: center;
+}
+
+.playerResult {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.computerResult {
+    font-size: 60px;
+    font-weight: 800;
+}
